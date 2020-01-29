@@ -3,6 +3,7 @@
  The repo contains test airflow dags and plugin. Plus I have also added my docker compose yaml file and airflow configuration file just ot be saved here.
 
   To run
+  0. create dags_working, tmp, logs, dags_working sub-folders in the current directory;
   1. copy dags into dags' folder;
   2. copy postgres plugin into plugin/ folder;
   3. start containers in the appropriate order;
