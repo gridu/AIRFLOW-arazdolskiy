@@ -98,7 +98,8 @@ main_dag = DAG(
     dag_id=main_dag_id,
     default_args=default_args,
     schedule_interval='@hourly',
-    max_active_runs=1
+    max_active_runs=1,
+    catchup=False
 )
 
 with main_dag:
